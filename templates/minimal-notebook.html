@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Minimal notebook template</title>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Inter:wght@500;700;800&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#16181D; --pen:#2453D6; --muted:#5B6270; }
+  body { margin:0; background:#ccd; display:flex; flex-direction:column; align-items:center; gap:40px; padding:40px 0; }
+  .slide { width:1080px; height:1350px; position:relative; overflow:hidden; font-family:'Inter',system-ui,sans-serif; color:var(--ink);
+    background-color:#FFFFFF;
+    background-image:linear-gradient(90deg,transparent 109px,#F2A7A7 109px,#F2A7A7 112px,transparent 112px),
+                     repeating-linear-gradient(#FFFFFF 0 54px,#E3EAF3 54px 56px); }
+  .hand { font-family:'Caveat',cursive; font-weight:700; color:var(--pen); }
+  .top { position:absolute; left:150px; right:80px; top:56px; display:flex; justify-content:space-between; font-size:40px; }
+  .body { position:absolute; left:150px; right:80px; top:180px; display:flex; flex-direction:column; gap:34px; }
+  .h1 { font-weight:800; letter-spacing:-3px; line-height:1; }
+  .hl { background:linear-gradient(transparent 58%,#FFE66B 58%,#FFE66B 92%,transparent 92%); padding:0 6px; }
+  .pt { display:flex; align-items:baseline; gap:22px; font-size:38px; font-weight:500; line-height:1.3; }
+  .pt .n { font-family:'Caveat',cursive; font-weight:700; font-size:64px; color:var(--pen); flex:none; width:44px; }
+  .sticky { background:#FFF3A3; box-shadow:0 12px 24px rgba(0,0,0,.10); padding:28px 32px; font-family:'Caveat',cursive; font-weight:700; font-size:44px; transform:rotate(3deg); align-self:flex-end; }
+  .cmd { background:#F4F6FA; border-radius:12px; padding:16px 24px; font-family:ui-monospace,Menlo,monospace; font-size:32px; }
+  .foot { position:absolute; right:80px; bottom:56px; font-size:46px; }
+</style>
+</head>
+<body>
+
+<!-- COVER -->
+<section class="slide">
+  <div class="top hand"><span>@decodedebangi</span><span>p. 1/8</span></div>
+  <div class="body" style="top:300px">
+    <div class="hand" style="font-size:52px; transform:rotate(-3deg); align-self:flex-start">study notes</div>
+    <div class="h1" style="font-size:110px">What is a <span class="hl">context window</span>, really?</div>
+    <div style="display:flex; align-items:center; gap:18px">
+      <svg aria-hidden="true" width="120" height="70" viewBox="0 0 120 70"><path d="M6 14 C40 60, 80 64, 112 36 M96 28 L112 36 L100 50" fill="none" stroke="#2453D6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span class="hand" style="font-size:54px">explained like class notes</span>
+    </div>
+    <div class="sticky">8 slides · save it</div>
+  </div>
+  <div class="foot hand">turn the page →</div>
+</section>
+
+<!-- CONTENT -->
+<section class="slide">
+  <div class="top hand"><span>@decodedebangi</span><span>p. 2/8</span></div>
+  <div class="body">
+    <div class="h1" style="font-size:92px">The <span class="hl">3 things</span> to remember</div>
+    <div class="pt"><span class="n">1</span><span>first idea, short and <b>plain</b></span></div>
+    <div class="pt"><span class="n">2</span><span>second idea, with an example</span></div>
+    <div class="cmd">/compact focus on the bug</div>
+    <div class="pt"><span class="n">3</span><span>third idea</span></div>
+    <div class="hand" style="font-size:50px; transform:rotate(-2deg)">← this one shows up in interviews</div>
+  </div>
+  <div class="foot hand">turn the page →</div>
+</section>
+
+</body>
+</html>
