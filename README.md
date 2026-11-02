@@ -1,5 +1,5 @@
-# decodedebangi-carousel
-
+# Instagram Carousel Skill
+   
 A Claude skill that turns a topic, script or link into a ready-to-post
 **Instagram carousel** (1080 × 1350) in one of five styles — plus captions in
 English and Hinglish.
@@ -37,8 +37,8 @@ Settings → Capabilities → Skills, or add it from the repo.
 **Claude Code:**
 
 ```bash
-git clone https://github.com/<you>/decodedebangi-carousel-skill.git \
-  ~/.claude/skills/decodedebangi-carousel
+git clone https://github.com/DecodeDebangi/instagram-carousel-skill.git \
+     ~/.claude/skills/instagram-carousel
 ```
 
 Then ask: *"Make a carousel in the dark tech-news style about this week's AI news."*
