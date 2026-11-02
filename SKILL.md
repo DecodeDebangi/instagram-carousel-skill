@@ -40,6 +40,11 @@ Start building once you have a topic or script. Ask (once, in one message) only
 for what's missing and matters: style, number of slides, language. Don't ask
 for photos — offer to add them later.
 
+Check the format first. A carousel suits an idea with sequence that's worth
+re-reading: steps, a framework, a before and after, a list to screenshot. If the
+idea is one claim, or needs motion or a face, say so and suggest a reel instead.
+Build the carousel anyway if the user still wants one.
+
 ## 2. Research and fact-check (do not skip)
 
 - **User pasted a script/post:** use their content, but read any link they give.
@@ -64,15 +69,29 @@ for photos — offer to add them later.
    not the technical term ("compaction is the wrong fix"). Test: could a
    2nd-year CS student tell what the post is about in 2 seconds?
    Offer 3–4 cover text options when the user is unsure; recommend one.
-2. **Content slides** — one idea each: a headline (≤ 6 words, the slide's point)
+2. **Slide 2, the second hook** — why this matters, in one sentence. Instagram
+   can show a carousel again starting from a later slide, so this one must work
+   as a cover on its own. It can't be setup or background.
+3. **Content slides** — one idea each: a headline (≤ 6 words, the slide's point)
    + 2–4 short points or one big number. Numbers that matter get the giant type.
-3. **Middle hook** — a "the catch" / "the fix" pair keeps people swiping.
-4. **CTA slide** — summary or cheat sheet + "link in the comments" + save/follow.
-5. Footer cue on every content slide except the last: "swipe", or a teaser for
+4. **Middle hook** — a "the catch" / "the fix" pair keeps people swiping.
+5. **Recap slide** — the whole post as a short list or cheat sheet, readable with
+   no context, because this is the slide people screenshot and send. Keep the
+   handle on it.
+6. **CTA slide** — one main action, plus "link in the comments" if there's a link.
+7. Footer cue on every content slide except the last: "swipe", or a teaser for
    the next slide ("the fix", "what survives?").
 
 Introduce every product or proper noun the first time it appears ("Claude
 Code, Anthropic's coding agent, …").
+
+### Approve the copy before building
+
+Show the slide-by-slide text as a numbered list, plus the captions, before any
+design work. If `/ig-human` is available, run the slide text and both captions
+through it first, then check that it didn't change any fact, number, product name
+or the Hinglish phrasing. Build only after the user approves the copy, unless
+they asked to skip this step.
 
 ## 4. Build
 
@@ -113,10 +132,10 @@ Never shrink body text below 30 px. Max ~4 cards or ~5 bullets per slide.
 Write two versions — **English** and **Hinglish** (Roman-script Hindi mixed with
 English, conversational, the way the creator talks in reels):
 
-1. Hook question or bold line + 1 emoji
+1. Hook question or bold line (no emoji by default; at most one, rarely)
 2. 2–3 short paragraphs: what's happening, the catch, the takeaway
 3. 3–4 arrow (→) tips if the post is practical
-4. "Swipe …" line, "link in the first comment 🔗", "save this …"
+4. "Swipe …" line, "link in the first comment", "save this …"
 5. 5 hashtags, lowercase, relevant (no #viral, #fyp)
 
 Give the exact link to put in the first comment. Use only facts that are on
@@ -129,4 +148,5 @@ caption says whose it is.
   or couldn't verify.
 - Export: **PNG 1×** per slide (1080 × 1350 is Instagram's native portrait size;
   2× gets downscaled anyway). Name files `01-cover.png` … in order.
+- Alt text: write it for the cover at minimum, describing what the slide says.
 - Offer: photos on the cover, a different style, or inner tweaks.
