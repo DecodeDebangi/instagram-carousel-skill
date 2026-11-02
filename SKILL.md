@@ -1,5 +1,5 @@
 ---
-name: decodedebangi-carousel
+name: instagram-carousel
 description: Create Instagram carousel posts (1080×1350) for a tech/AI creator page in one of five house styles — Editorial, Sticker, Dark tech-news, Minimal notebook, Bold pastel — plus an English and Hinglish caption. Use when the user gives a topic, script or link and asks for a carousel, slides or an Instagram post.
 ---
 
